@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-input';
+
+  Counter :number = 5;
+
+  increment(){
+    this.Counter++;
+  }
+  decrement(){
+    this.Counter--
+  }
 }
